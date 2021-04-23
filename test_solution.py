@@ -9,5 +9,5 @@ def test_basic():
     i = iter(['5', '4 -1 2 3 1'])
     solution.input = lambda: next(i)
     solution.print = o
-    solution.golf()
+    solution.golf3()
     assert Static.out == 1
